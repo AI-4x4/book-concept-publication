@@ -1,0 +1,561 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Book — Albert Toma</title><style>body{max-width:880px;margin:40px auto;padding:0 26px;font:18px/1.65 Georgia,serif;color:#20333b;background:#faf9f5}h1{font-size:2.2em;line-height:1.2}h2{margin-top:2em;line-height:1.3}h3{color:#146c65}a{color:#146c65}table{border-collapse:collapse;width:100%;font-size:.86em}th,td{border:1px solid #c8d4d1;padding:10px;vertical-align:top}th{background:#e5efea}blockquote{border-left:3px solid #3d8276;padding-left:16px;color:#445c62}pre{white-space:pre-wrap;padding:15px;background:#eef1ec}nav,footer{font:14px system-ui,sans-serif;padding:15px 0;border-bottom:1px solid #a4bdb5}@media print{body{font-size:11pt;background:white;margin:0}nav{display:none}h1,h2,h3{break-after:avoid}tr{break-inside:avoid}}</style><nav><a href="../README.md">Книга / The Book</a> · <a href="../ru/BOOK.html">Русский</a> · <a href="../en/BOOK.html">English</a> · <a href="BOOK.pdf">PDF</a></nav><main><h1>The Book as a Way to Preserve and Develop Intent</h1>
+<p>Albert Toma</p>
+<p>Edition dated November 1, 2026</p>
+<h2>Contents</h2>
+<ul>
+<li><a href="#section-1">Abstract</a></li>
+<li><a href="#section-2">1 The Problem the Book Addresses</a></li>
+<li><a href="#section-3">2 What Must Be Kept in View</a></li>
+<li><a href="#section-4">3 How the Parts Are Connected</a></li>
+<li><a href="#section-5">4 How to Distinguish Development from Drift</a></li>
+<li><a href="#section-6">5 A Running Example of an Educational Workshop</a></li>
+<li><a href="#section-7">6 An Example of a Change in Grounds</a></li>
+<li><a href="#section-8">7 An Example of Complex Interaction</a></li>
+<li><a href="#section-9">8 Checking the Concept and Its Implementation</a></li>
+<li><a href="#section-10">9 Relationship to Other Working Materials</a></li>
+<li><a href="#section-11">10 How to Begin Without Unnecessary Procedure</a></li>
+<li><a href="#section-12">11 Development and Self-Application</a></li>
+<li><a href="#section-13">12 Limitations and Open Questions</a></li>
+<li><a href="#section-14">13 Self-Application and Revising the Book</a></li>
+<li><a href="#section-15">14 Aging and Accumulating Errors</a></li>
+<li><a href="#section-16">15 Reuse and the Limits of Transfer</a></li>
+<li><a href="#section-17">16 A First Complete Book Example</a></li>
+<li><a href="#section-18">Appendix A Glossary</a></li>
+<li><a href="#section-19">Appendix B Questions for Analysis</a></li>
+<li><a href="#section-20">Appendix C Status and Contents of the Edition</a></li>
+</ul>
+<p><a id="section-1"></a></p>
+<h2>Abstract</h2>
+<p>When intent is passed to other participants, translated into requirements, and implemented, its meaning can gradually change. Individual decisions remain reasonable, documents are consistent, checks pass, yet the resulting whole now serves a different purpose. Such a shift is called drift of the Idea here.</p>
+<p><strong>The Book is a coherent, evolving representation of intent, its grounds, the decisions made, and significant relationships. Its purpose is to counteract drift of the Idea as intent is communicated, developed, and implemented.</strong></p>
+<p>The Book connects the questions “what is intended,” “why this decision was chosen,” “what it is based on,” “who has the authority to change it,” and “what the outcome was.” Its form may be a short note or a system of linked materials. Checking for contradictions and completeness is a minimum requirement; completeness is defined relative to the intent, task, and stage.</p>
+<p>Preserving meaning and establishing the reliability of grounds require different checks. An erroneous idea can be implemented faithfully. A working product can be created that has lost a significant part of the original intent. The result’s correspondence to the intent is therefore considered together with the support for factual claims.</p>
+<p>The report is intended for project authors, managers, and collaborators who need to keep the whole in view amid change. It explains the basic concept and suggests ways to begin applying it. The practical examples in sections 5-7 are hypothetical: their decisions and proposed checks are not presented as test results. Historical episodes are placed in section 11.</p>
+<p><a id="section-2"></a></p>
+<h2>1 The Problem the Book Addresses</h2>
+<p>Intent rarely becomes a result in a single step. It is discussed, described, divided into tasks, passed to those carrying them out, and expressed in architecture, rules, and actions. Participants see different parts of the whole and make local decisions.</p>
+<p>Meaning can be lost at every transition. The word “convenient” begins to mean fewer actions, although the author meant fewer difficulties. The word “done” turns into the existence of a file, although the person needs a working way to solve a problem. Success is measured by an indicator that is easier to obtain, and people gradually forget what useful change it was meant to reflect.</p>
+<p>Documents can accurately preserve individual agreements. The difficulty arises in the relationships between them: why a requirement appeared, which property of the intent it preserves, and when it should be reconsidered. If these relationships are lost, reconstructing the project becomes a matter of guessing from the surviving fragments.</p>
+<p>The Book proposes preserving significant relationships along with the content. It should be possible to trace a decision back to its purpose and grounds. For an important part of the intent, it should be possible to find its expression in requirements, work, and results. A missing link can be marked as an open question and investigated, rather than filled with a convenient guess.</p>
+<p>This does not imply a need to describe every step in detail. A description is useful as long as it helps people understand the whole, choose an action, or check a result. Simple work may need only a short Book; a complex project may require separate domain-specific documents.</p>
+<p><a id="section-3"></a></p>
+<h2>2 What Must Be Kept in View</h2>
+<h3>Intent and Essential Properties</h3>
+<p>Intent answers the question of what change is needed, for whom, and why. Preserving it requires distinguishing the properties on which its meaning depends from the current ways of implementing them.</p>
+<p>For example, “the participant independently works through a new problem” may be an essential property of an educational project. A video lesson, an in-person meeting, and a set of exercises are implementation options. Replacing a video with a meeting may preserve the intent. Removing independent work while retaining all the videos may change it.</p>
+<p>Whether a property is essential is determined by the particular intent. No universal list of mandatory properties for every project is assumed here.</p>
+<h3>Concepts and Boundaries</h3>
+<p>Ambiguous words should be explained wherever their meaning affects a decision. “Independence” may mean the absence of hints, the ability to explain the reasoning behind a solution, or the opportunity to choose a course of action. These alternatives require different checks.</p>
+<p>A boundary also shows which tasks the project takes on and which fall outside its scope. It makes it possible to distinguish a missing part of the necessary whole from an attractive extension.</p>
+<h3>Grounds and Decisions</h3>
+<p>Grounds explain why a proposition deserves consideration: they may be an observation, a document, a check result, or an explicitly stated assumption. A decision establishes a chosen direction within a defined scope of authority.</p>
+<p>These roles differ. The statement “visitors come after work” requires factual support. The decision “hold classes in the evening” requires a choice and the authority to manage the schedule. A new observation may call the decision into question, but does not by itself establish a new schedule.</p>
+<h3>Work and Results</h3>
+<p>The Book should make it possible to trace what has been done to implement a decision and what evidence demonstrates the result. Assigning someone to the work, starting it, obtaining intermediate material, and achieving a useful outcome have different meanings.</p>
+<p>For a long-running task, it is also important to preserve what remains unfinished: what is still unknown, who is continuing the work, and what next step is actually available. Recording an intention to continue does not confirm future execution.</p>
+<p><a id="section-4"></a></p>
+<h2>3 How the Parts Are Connected</h2>
+<p>A simplified reading framework looks like this:</p>
+<blockquote>
+<p>Intent → essential properties → decisions → work → observable result.</p>
+<p>Grounds support decisions; constraints and authority define permissible actions; checking the result brings questions back to the intent, grounds, and decisions.</p>
+</blockquote>
+<p>This is a framework of meaningful relationships, not a mandatory linear sequence. An observation may arise during execution, bring the work back to the definition of a concept, and require a different decision.</p>
+<p>The Book can be viewed as a graph: propositions and materials are connected by relationships such as “supports,” “clarifies,” “implements,” “checks,” “constrains,” and “contradicts.” Merely indicating that a connection exists is not enough. Its meaning and the conditions under which it holds must be understood.</p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>What it helps establish</th>
+<th>Error in interpreting the relationship</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grounds support a decision</td>
+<td>Why the decision was chosen and when it should be reconsidered</td>
+<td>Treating any mention of a source as sufficient proof</td>
+</tr>
+<tr>
+<td>A requirement expresses a property of the intent</td>
+<td>What will be lost if the requirement is removed</td>
+<td>Treating every historical requirement as immutable</td>
+</tr>
+<tr>
+<td>A check relates to a result</td>
+<td>Exactly which property was checked</td>
+<td>Extending the success of one check to the readiness of the entire project</td>
+</tr>
+<tr>
+<td>A change affects a dependent proposition</td>
+<td>Where a new assessment is required</td>
+<td>Revoking all neighboring decisions merely because they share a section</td>
+</tr>
+</tbody>
+</table>
+<p>If two propositions use the same source, they do not become two independent confirmations. If material is connected to many other materials, that does not yet mean that all the connections are useful or correct.</p>
+<h3>The Idea and Technical Implementation</h3>
+<p>The Book entered practice as a replacement for the technical specification in the role of the project’s main reference. From the outset, it distinguished the idea from technical implementation so as to avoid mixing them wherever possible. According to the author’s clarification, this was the original framework, not a later consequence of representing the Book as a graph.</p>
+<p>The idea answers the questions “what should result, for whom, and why.” The technical part describes the chosen means of implementation, its constraints, and the actual state of implementation. The connections between them are preserved: a decision must be justified by the intent, while observed constraints may require an explicit revision of the idea. A change in the implementation method does not in itself change the intent. “Wherever possible” preserves the necessary interaction between the parts and does not prescribe a rigid format or a complete separation of all information.</p>
+<h3>The Overall Book and Specialized Documents</h3>
+<p>A precise description of an architecture, calculation, contract, or procedure may be held in a separate document. The Book maintains its purpose and significant connections to the whole. The specialized document retains its own precision, scope, and amendment procedure.</p>
+<p>This makes it possible to avoid two extremes: overloading the general text with every detail or leaving details disconnected from the intent. For complex areas, separate domain-specific representations are acceptable if their interaction is clear and the significant commitments between them are preserved.</p>
+<p><a id="section-5"></a></p>
+<h2>4 How to Distinguish Development from Drift</h2>
+<p>The Idea can change. New information can disprove a premise, use can reveal a limitation, and the author can consciously choose a different goal. Preserving intent does not mean prohibiting such changes.</p>
+<p>A justified revision makes the transition visible: what is changing, why, who made the decision, and which dependencies require reassessment. Drift occurs when a significant substitution goes unnoticed or is presented as a continuation of the previous meaning.</p>
+<table>
+<thead>
+<tr>
+<th>What changed</th>
+<th>What should be checked</th>
+<th>What the change does not establish by itself</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A factual premise</td>
+<td>Which conclusions it influenced and whether other support exists</td>
+<td>A new goal or permission to act</td>
+</tr>
+<tr>
+<td>The author’s intent</td>
+<td>Who has the authority to change it and which properties are now essential</td>
+<td>The truth of factual statements</td>
+</tr>
+<tr>
+<td>The implementation method</td>
+<td>Whether the required properties and permissible constraints have been preserved</td>
+<td>The acceptability of the result merely because a new version exists</td>
+</tr>
+<tr>
+<td>Authority or an available resource</td>
+<td>Which actions are now permitted and feasible</td>
+<td>The right to restore what was revoked through another route</td>
+</tr>
+</tbody>
+</table>
+<p>A useful question when making a change is: “If this amendment is accepted, what will become possible, what will cease to be mandatory, and who will notice the consequences?” It helps reveal a non-obvious expansion of meaning, but answering it still requires domain-specific grounds.</p>
+<p><a id="section-6"></a></p>
+<h2>5 A Running Example of an Educational Workshop</h2>
+<h3>Original Intent</h3>
+<p>Imagine a workshop that helps adults independently work through everyday financial problems. This is a hypothetical example. Its purpose is to demonstrate working with relationships; the decisions below are proposed for examination.</p>
+<p>The author states the goal: after the classes, a participant should be able to analyze a new problem, identify the significant conditions, and explain the chosen approach to solving it. Obtaining the correct answer to a familiar exercise is useful, but insufficient for this goal.</p>
+<p>Independent analysis of a new situation and the ability to check the reasoning are selected as essential properties. A constraint is the absence of access to participants’ personal financial data. These propositions establish a framework within which the class format can be chosen.</p>
+<h3>From Intent to Decisions</h3>
+<table>
+<thead>
+<tr>
+<th>Proposition</th>
+<th>Proposed decision</th>
+<th>What can be observed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The method needs to transfer to a new situation</td>
+<td>After working through an example, give an unfamiliar problem with changed conditions</td>
+<td>The participant identifies the conditions and explains the choice of method</td>
+</tr>
+<tr>
+<td>It is important to understand the reasoning</td>
+<td>Ask for a brief explanation of why this particular step was chosen</td>
+<td>It is apparent whether the person distinguishes a rule from an instance of its application</td>
+</tr>
+<tr>
+<td>Personal data is not required</td>
+<td>Use fictional amounts and situations</td>
+<td>No information about real accounts is requested in order to complete the class</td>
+</tr>
+<tr>
+<td>An accessible first result is needed</td>
+<td>Start with one short class</td>
+<td>The essential chain can be checked without a full course</td>
+</tr>
+</tbody>
+</table>
+<p>The observations in the last column are not yet confirmed results. They show what evidence should be collected.</p>
+<h3>How Substitution Arises</h3>
+<p>The team notices that ready-made answers resolve difficulties faster. It shortens explanations, supplies the next step in advance, and begins assessing quality by the time taken to reach an answer. Users are pleased with the speed, and the number of completed exercises grows.</p>
+<p>This version may provide a useful service offering ready-made solutions. But the speed indicator does not answer the original question about independently analyzing a new problem. If the team continues to call it evidence that the previous goal has been achieved, substitution occurs.</p>
+<p>The Book makes it possible to expose the discrepancy: the property of “independent transfer” remains in the intent, while the decisions and checks have ceased to express it. Different actions are then possible. The relevant practice and check can be restored. The goal can be changed with the consent of the person who defines it. Two modes can be retained, with the purpose of each identified separately.</p>
+<h3>Checking Through Reconstruction</h3>
+<p>Before execution, a team member restates the task in their own words: “We need to create a class after which a person will independently solve a new problem and explain their reasoning; personal data must not be collected.” This restatement makes their understanding available for comparison.</p>
+<p>An alternative restatement, “we need to provide the correct answer as quickly as possible,” reveals the loss of an essential property even before implementation. Correcting understanding saves subsequent work only if the corrected understanding is then preserved in execution.</p>
+<p>At the end, the class and the evidence obtained are compared with the agreed understanding. The existence of materials and a correct restatement does not settle the question of how the participant handled the new problem.</p>
+<h3>What Could Disprove a Good Result</h3>
+<p>The participant may have memorized a template, guessed the answer by chance, or received an unnoticed hint. The new problem may have been almost a copy of the one worked through. A check must therefore take into account how the tasks were selected and the conditions under which they were performed.</p>
+<p>If the expected transfer is absent, the first step is to establish where the chain diverges: independence has been defined incorrectly, the teaching method is unsuitable, the evidence is insufficient, or the goal itself needs clarification. An elegant description of the chain cannot answer this question in place of observation.</p>
+<p><a id="section-7"></a></p>
+<h2>6 An Example of a Change in Grounds</h2>
+<p>Imagine that the workshop chose evening meetings based on information that the room was available after 18. It is then discovered that the room is occupied during that period. This continues the hypothetical example.</p>
+<p>The schedule, related agreements, and delivery format are affected. The change does not invalidate the requirement for independent analysis of problems itself. Nor is it necessarily necessary to discard the exercise content: it must be checked whether that content depends on the meeting format.</p>
+<table>
+<thead>
+<tr>
+<th>Dependent proposition</th>
+<th>What happened to its support</th>
+<th>Possible next step</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>An evening meeting in the selected room</td>
+<td>Essential support has fallen away</td>
+<td>Do not declare this option confirmed; find an available alternative</td>
+</tr>
+<tr>
+<td>A specific deadline for enrolling the group</td>
+<td>May depend on the available schedule</td>
+<td>Check agreements and communicate the change to those affected</td>
+</tr>
+<tr>
+<td>Independent transfer to a new problem</td>
+<td>Does not depend on room occupancy</td>
+<td>Retain it as an essential property of the goal</td>
+</tr>
+<tr>
+<td>No collection of personal financial data</td>
+<td>Does not depend on the schedule</td>
+<td>Retain the constraint</td>
+</tr>
+</tbody>
+</table>
+<p>If another verified ground supports the previous decision, the decision may remain in place. For example, the meeting could be held in another room whose use has already been authorized. But the feasibility of that option must be established, not assumed for the sake of convenient continuation.</p>
+<p>This analysis demonstrates targeted revision. Connectedness is needed to identify what is affected and preserve what is unaffected. Automatically resetting the entire project creates a different error: useful work is lost along with one incorrect premise.</p>
+<p><a id="section-8"></a></p>
+<h2>7 An Example of Complex Interaction</h2>
+<p>Consider a hypothetical class registration service. A teacher, an administrator, and a participant act concurrently. Each has their own part of the task: class content, scheduling, and registration. The useful result for the participant is a confirmed place in a suitable class.</p>
+<p>A submitted application does not yet mean a confirmed registration. An available teacher does not prove that a room is available. A sent notification does not establish that the recipient received it. These distinctions matter to the whole, even though each local process may appear complete.</p>
+<p>The Book maintains the shared meaning and the relationships between the parts. Specialized documents may describe registration and scheduling rules in detail. At the same time, it must be clear which event confirms registration, who is responsible for a conflict, and what the participant is told when something changes.</p>
+<h3>The Normal Path and Failure</h3>
+<p>In the normal case, the time, place, and feasibility of holding the class have been checked; the participant receives confirmation with the conditions. If two applications conflict, the same limited place cannot be promised to both. If the outcome of a notification is unknown, the actual outcome is checked first, before repeating an action that could create duplication.</p>
+<p>The check proposed for this example should distinguish at least normal registration, lack of availability, conflicting simultaneous requests, and an unknown confirmation outcome. The detailed design of the checks depends on the implementation and the rights in force.</p>
+<h3>What Counts as Completion</h3>
+<p>For an internal administrative step, completion may mean a processed application. For the original request, it means a confirmed registration or a clear response that no place is available. If the report shows only the internal step, the user may receive the false impression that their task has been resolved.</p>
+<p>Checking from the result forces the question back to the recipient: what is now available to this person, which promise has been fulfilled, and what remains open? It does not require describing the entire system anew each time.</p>
+<p><a id="section-9"></a></p>
+<h2>8 Checking the Concept and Its Implementation</h2>
+<h3>Contradictions</h3>
+<p>Two propositions may conflict within the same scope and under the same conditions. For example, a promise not to use personal data contradicts a mandatory requirement to upload an actual account statement. If one proposition applies to a public mode and the other to a separately agreed private service, their scopes must first be established.</p>
+<p>Checking meaning precedes mechanical correction of wording. Changing words can hide a contradiction while leaving the conflict between actions intact.</p>
+<h3>Completeness Relative to the Task and Stage</h3>
+<p>For the first class, it is sufficient to describe the necessary chain from intent to observable outcome. A complete enrollment, payment, and support system may lie outside the boundaries of this prototype. However, if the meeting is impossible without confirmed access to a room, that gap is already significant.</p>
+<p>It is useful to ask: “Can the selected scenario be followed through to the result without inventing missing rules?” Any addition that proves necessary must be classified as a premise to be checked, a proposal, or an open question.</p>
+<h3>Reconstruction</h3>
+<p>Reconstruction makes understanding available for checking. A participant reproduces the goal, essential properties, constraints, and intended result in their own words. This understanding is then compared with the original intent and available grounds.</p>
+<p>Reconstruction can also proceed from the result: judging by what was created, what was considered the main task? If the product rewards the speed of a ready-made answer while the author expected independent reasoning, this discrepancy requires examination.</p>
+<p>Two consistent restatements can repeat the same error. Their consistency is therefore useful as an observation about understanding, but insufficient for a conclusion about the reliability of factual propositions.</p>
+<h3>Scenarios and Tests</h3>
+<p>A scenario connects initial conditions, an action, and an expected consequence. A test checks a particular property under specified conditions. Some of these checks can be automated; assessing correspondence in meaning often requires domain-specific examination.</p>
+<p>In test-driven development, it is useful to determine in advance which observable result will provide evidence of the required property. But a test written from a misunderstood task can reliably entrench the error. Making understanding explicit and checking the result therefore complement testing.</p>
+<p>The following are tasks for checking the approach. They have not been run as a system test and do not have the status of obtained results.</p>
+<table>
+<thead>
+<tr>
+<th>Case</th>
+<th>Expected distinction</th>
+<th>What would constitute false success</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The wording retained convenience but lost independence</td>
+<td>The loss of an essential property is noticed</td>
+<td>All participants restated the substituted goal in the same way</td>
+</tr>
+<tr>
+<td>An unknown premise is recorded as fact</td>
+<td>The need for verification is visible</td>
+<td>A source is cited, but its content does not support the statement</td>
+</tr>
+<tr>
+<td>The grounds for the schedule have fallen away</td>
+<td>Related decisions are reconsidered</td>
+<td>All project content is discarded without examination</td>
+</tr>
+<tr>
+<td>An internal step is complete, but the user’s result is absent</td>
+<td>The step is distinguished from the original request</td>
+<td>A “done” report is based on the existence of an intermediate file</td>
+</tr>
+<tr>
+<td>A test checks speed instead of independence</td>
+<td>The mismatch between measurement and intent is detected</td>
+<td>Tests pass, so the goal is declared achieved</td>
+</tr>
+<tr>
+<td>Two checkers use the same incorrect source</td>
+<td>The shared dependency remains visible</td>
+<td>Matching answers are declared independent confirmation</td>
+</tr>
+</tbody>
+</table>
+<h3>How to Assess the Usefulness of the Book Itself</h3>
+<p>For assessment, specific work and observable indicators should be selected in advance: whether the essential intent can be reconstructed, which substitutions are noticed, which are missed, and how many corrections are required. The costs of maintaining materials, reading, checking, and participants’ attention must be taken into account.</p>
+<p>Comparison with the usual way of working must retain comparable tasks and conditions. One successful example demonstrates the possibility of useful application in that case. It does not establish an advantage across all projects. Applying the Book to itself also provides material for investigation, while retaining the risk of an error shared by the compiler and the checker.</p>
+<p><a id="section-10"></a></p>
+<h2>9 Relationship to Other Working Materials</h2>
+<p>The following comparison explains the roles of materials according to their usual purpose. It is not a comparative product test or proof of the Book’s uniqueness. A particular wiki or requirements system may implement some of the same functions.</p>
+<table>
+<thead>
+<tr>
+<th>Material or tool</th>
+<th>Main role</th>
+<th>Which connection matters to the Book</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Technical specification</td>
+<td>Describes the agreed result and requirements</td>
+<td>Why these requirements express the intent and what change should trigger their reconsideration</td>
+</tr>
+<tr>
+<td>Wiki and knowledge base</td>
+<td>Preserve and connect information</td>
+<td>Which propositions are in force, what they are based on, and what they mean for a decision</td>
+</tr>
+<tr>
+<td>Architecture document</td>
+<td>Describes the structure in detail</td>
+<td>Which properties of the intent the chosen structure preserves</td>
+</tr>
+<tr>
+<td>Decision log</td>
+<td>Stores chosen options and reasons</td>
+<td>How decisions relate to the overall intent and subsequent results</td>
+</tr>
+<tr>
+<td>Knowledge graph</td>
+<td>Represents objects and relationships</td>
+<td>Whether the relationships are correct, whether they are significant, and what actually follows from them</td>
+</tr>
+<tr>
+<td>Plan and task list</td>
+<td>Organize execution</td>
+<td>How execution changes the situation of the result’s recipient</td>
+</tr>
+<tr>
+<td>Tests and observations</td>
+<td>Check properties and the actual state</td>
+<td>Whether the selected properties are sufficient for the original goal</td>
+</tr>
+<tr>
+<td>Version history</td>
+<td>Preserves changes to the representation</td>
+<td>What changed in meaning and why the transition was accepted</td>
+</tr>
+</tbody>
+</table>
+<p>The Book can draw on these tools. The choice of storage tool does not by itself determine whether a meaningful connection exists. Conversely, a short text may preserve that connection sufficiently for a limited task.</p>
+<p><a id="section-11"></a></p>
+<h2>10 How to Begin Without Unnecessary Procedure</h2>
+<p>Choose one current task in which expectations and results already diverge or are at risk of diverging. Use available documents and verified information rather than gathering the entire project anew.</p>
+<p>A short record is sufficient for the first pass:</p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>What to record</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What needs to be achieved</td>
+<td>A useful change for a specific recipient</td>
+</tr>
+<tr>
+<td>What preserves the meaning</td>
+<td>A few essential properties and relevant constraints</td>
+</tr>
+<tr>
+<td>What the choice is based on</td>
+<td>Verified information, separate from assumptions</td>
+</tr>
+<tr>
+<td>What has been chosen</td>
+<td>The decision, its scope, and the grounds for adopting it</td>
+</tr>
+<tr>
+<td>How to check</td>
+<td>An observation capable of distinguishing the intended result from a plausible substitute</td>
+</tr>
+<tr>
+<td>What remains open</td>
+<td>A significant unknown and the next available step</td>
+</tr>
+</tbody>
+</table>
+<p>Ask another participant to reconstruct the understanding from this record. Correct any substitution discovered and carry out the authorized portion of the work. Then compare the result with the agreed understanding. Add to the Book wherever actual work has revealed a missing connection.</p>
+<p>Not every task requires a separate document, a new term, or a complete revision of the system. If the available description is sufficient for making and checking a decision, additional formalization should be assessed by its usefulness. Preserved experience must also be applied with due regard for changed conditions.</p>
+<p>To develop the Book, it is useful to preserve unsuccessful approaches as well: what problem they attempted to solve, why the method proved insufficient, and what was changed. Such a record helps avoid repetition if its limits are clear and the conditions are checked again.</p>
+<p><a id="section-12"></a></p>
+<h2>11 Development and Self-Application</h2>
+<p>This brief authorial retrospective describes the development of the formulations. Dates do not establish scientific priority, the exact birth of the approach, or demonstrated effectiveness.</p>
+<p><strong>Background.</strong> Albert Toma recalls spending about two months trying to understand a complex, disordered project before the Book emerged. The exact beginning remains unknown. He dates the strand of monitoring that develops with a project to December 2025; the exact day is not established.</p>
+<p><strong>Original arrangement.</strong> The Book entered practice as a replacement for the technical specification in its role as the project's main reference. According to the author, the idea and technical implementation were distinguished from the outset wherever possible. Their connection remains essential: implementation results may justify revisiting the idea.</p>
+<p><strong>August 2026.</strong> The selected development strand begins on August 12 with the task of assembling a conceptual whole. By mid-August, protection against drift and simplification without loss of essential meaning are explicit. The requirement to check changes to the Book using its own rules also appears at this stage. Self-application therefore cannot be dated only to September. A requirement to check does not itself establish successful execution of that check.</p>
+<p><strong>September.</strong> On September 11, self-application and recursion are discussed explicitly: the developing approach itself becomes the subject of its description. This is a milestone of recognition rather than an established beginning of self-application. On September 17, the author explains the purpose as counteracting drift of the Idea and names checks for contradictions and completeness as a minimum requirement. The formulation clarifies the original purpose rather than retrospectively creating it.</p>
+<p><strong>October.</strong> The relationships between the overall Book and specialized documents, the representation of relationships as a developing graph, and checking results against an agreed understanding are refined. Attention to transitions between parts increases: individually functioning parts do not guarantee a successful joint result. These propositions are illustrated here through hypothetical examples.</p>
+<p><strong>Edition dated November 1, 2026.</strong> The full account develops the basic article, retains the examples and glossary, and adds a separate discussion of aging and material for initial application. The edition date does not relocate the origin of the concept to publication day.</p>
+<h3>What to Retain from This History</h3>
+<p>The Book developed from a practical need to preserve the whole as details accumulated. Both the project and the Book itself became subjects of review. The history explains the author's path; demonstrating usefulness requires observations in specific tasks, comparison with alternatives, and accounting for costs.</p>
+<p><a id="section-13"></a></p>
+<h2>12 Limitations and Open Questions</h2>
+<p>The Book can consistently preserve a mistaken intent. Fidelity to the author's goal therefore does not remove the need to check factual grounds and consequences.</p>
+<p>Connections of meaning cannot be reduced to completed fields. A formal structure may be intact while its values are wrong. A successful software check of the structure establishes only the properties that were checked.</p>
+<p>Self-checking is vulnerable to shared error. Different participants may rely on a single source, the same assumption, or an example understood in the same way. Separate consideration is useful only insofar as it genuinely changes how errors are detected.</p>
+<p>Completeness has to be defined relative to the task and stage. It is impossible to promise that every possible question has been listed. It is possible to show the chosen boundary, significant dependencies, and remaining gaps.</p>
+<p>Maintaining the Book has a cost. Excessive records, repeated readings, and formal checks can hinder work. The useful amount is determined by which errors and costs the description helps prevent in a particular case.</p>
+<p>The mere presence of a record in the Book does not grant authority, and a formulation alone does not ensure that boundaries are respected. The right to change a goal, perform an action, or allocate a resource requires its own grounds. Compliance with these constraints is checked in the real environment.</p>
+<p>Further research needs to address transfer between different participants, resilience through prolonged changes, maintenance costs, and comparison with methods already in use. This report describes the concept and ways to test it while leaving these questions open.</p>
+<p><a id="section-14"></a></p>
+<h2>13 Self-Application and Revising the Book</h2>
+<p>If the Book helps preserve a project's intent, its own revisions invite the same question: does the new version preserve its purpose, essential relationships, and necessary constraints? A rule added after one failure may correct that case while complicating all others. A reduction may remove excess detail and also lose a condition of applicability.</p>
+<p>Before a significant revision, recover the reason for the change, compare suitable options, and define the result by which improvement will be judged. Afterward, check both the specific correction and the affected whole. A small change can warrant a small check; this does not imply a fixed number of documents or approvals.</p>
+<p>Describing the Book within the Book is self-application. It does not create a circular proof of truth: a coherent new version may preserve a shared error. Evidence must distinguish a useful correction from improvement only in an internal measure.</p>
+<p><a id="section-15"></a></p>
+<h2>14 Aging and Accumulating Errors</h2>
+<p>Aging is considered here as possible cumulative degradation of state, structure, or relationships. Error accumulation is one possible mechanism. Unlike obsolescence caused by changing external conditions, aging can occur in an unchanged environment.</p>
+<p>For example, an exception is repeatedly transferred to new situations without its original condition, a retelling comes to count as verified grounds, and checks adapt to the modified version. Each step may appear acceptable. Together, the changes may impair the original result. This is a possible mechanism, not an established law of all systems.</p>
+<p>Time alone, increasing volume, or a single failure does not establish aging. A conclusion requires a sequence of changes, comparable results, and examination of other explanations. Correcting a record does not establish recovery of dependent decisions. It can be useful to compare a local correction, simplification, bounded rollback, and rebuilding the affected area, preserving commitments and checking the result after the change.</p>
+<p><a id="section-16"></a></p>
+<h2>15 Reuse and the Limits of Transfer</h2>
+<p>A successful method can be retained with its situation, conditions, action, result, and limitations. In a new task, compare the essential relationships rather than familiar words alone. A changed condition may make the previous solution unsuitable.</p>
+<p>The same applies to the Book itself. Success in one project does not establish an advantage in every other project. Compare the full route to a useful result: writing and reading costs, clarification, detected and missed errors, corrections, and maintenance. Additional formality is justified when it helps the task; the number of records is not an independent measure of quality.</p>
+<p><a id="section-17"></a></p>
+<h2>16 A First Complete Book Example</h2>
+<p>Consider the workshop in section 5. A small Book could be written as follows.</p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Example of a substantive answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What is intended, and for whom?</td>
+<td>A participant learns to analyze unfamiliar everyday financial problems independently.</td>
+</tr>
+<tr>
+<td>What must be preserved?</td>
+<td>Explanation of the grounds for a solution and transfer to a new comparable problem; real personal financial information is not required.</td>
+</tr>
+<tr>
+<td>What supports the choice of method?</td>
+<td>Gradual hints are proposed as a hypothesis; their benefit has not yet been measured.</td>
+</tr>
+<tr>
+<td>What has been decided?</td>
+<td>An independent attempt comes first, followed by a hint and discussion. A complete answer is available after the attempt.</td>
+</tr>
+<tr>
+<td>What result is needed?</td>
+<td>Solving a new comparable problem without a supplied answer, with an explanation of the reasoning.</td>
+</tr>
+<tr>
+<td>What remains unknown?</td>
+<td>Adequacy of the problems, the effect of hints, participants' initial differences, and the cost of the workshop.</td>
+</tr>
+<tr>
+<td>What might require revision?</td>
+<td>Participants memorize answers without transferring the method; hints replace independent reasoning.</td>
+</tr>
+</tbody>
+</table>
+<p>This is a completed instructional example, not a universal requirements template. Before a real evaluation, define the problems, conditions, and sufficient evidence. After evaluation, record the observed result and its limits. If intent changes, adopt the new decision explicitly; if a factual premise is wrong, reconsider dependent conclusions.</p>
+<p><a id="section-18"></a></p>
+<h2>Appendix A Glossary</h2>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Meaning in this report</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Idea and intent</td>
+<td>The envisioned whole and the meaning of the required change; not merely a list of functions</td>
+</tr>
+<tr>
+<td>Drift of the Idea</td>
+<td>An unnoticed shift in essential meaning during communication, development, or implementation</td>
+</tr>
+<tr>
+<td>Book</td>
+<td>A coherent, evolving representation of intent, its grounds, decisions, and significant relationships</td>
+</tr>
+<tr>
+<td>Essential property</td>
+<td>A property whose loss changes the meaning of the given intent</td>
+</tr>
+<tr>
+<td>Grounds</td>
+<td>Information or propositions on which a particular conclusion or decision rests</td>
+</tr>
+<tr>
+<td>Assumption</td>
+<td>A proposition accepted for consideration whose truth has not yet been established to the required extent</td>
+</tr>
+<tr>
+<td>Hypothesis</td>
+<td>A testable supposition requiring a discriminating test</td>
+</tr>
+<tr>
+<td>Decision</td>
+<td>A chosen direction within a defined scope of authority</td>
+</tr>
+<tr>
+<td>Unknown</td>
+<td>A significant question for which there is not yet a sufficient answer</td>
+</tr>
+<tr>
+<td>Contradiction</td>
+<td>Incompatibility of propositions within the same scope and under the same conditions</td>
+</tr>
+<tr>
+<td>Completeness</td>
+<td>Sufficiency of the description relative to the intent, task, and stage</td>
+</tr>
+<tr>
+<td>Reconstruction</td>
+<td>Reestablishing an understanding of the whole so that it can be presented and checked</td>
+</tr>
+<tr>
+<td>Derived representation</td>
+<td>A requirement, diagram, assignment, or other material expressing part of the intent in its own form</td>
+</tr>
+<tr>
+<td>Evidence of a result</td>
+<td>An observation or material supporting a conclusion about a specific property achieved</td>
+</tr>
+<tr>
+<td>Revision</td>
+<td>Explicit reassessment of a proposition and affected dependencies on new grounds or by an authorized decision</td>
+</tr>
+</tbody>
+</table>
+<p><a id="section-19"></a></p>
+<h2>Appendix B Questions for Analysis</h2>
+<p>These questions can be used when reading the concept, analyzing a project, or discussing a change. Choose those relevant to the current task.</p>
+<ol>
+<li>What useful change is the goal, and who is its recipient?</li>
+<li>Which properties cannot be lost if the work is still to count as an embodiment of this intent?</li>
+<li>Where are participants using the same word with different meanings?</li>
+<li>Which decision looks convincing but rests on an unverified premise?</li>
+<li>What will change in the conclusion if that premise proves false?</li>
+<li>Which ordinary scenario and which adverse scenario must be followed through to the result?</li>
+<li>What evidence will distinguish a result from a completed internal step?</li>
+<li>What could disprove our conclusion that we are ready?</li>
+<li>Where do checks share a single common basis?</li>
+<li>What is now available to the recipient, and what remains open?</li>
+</ol>
+<p><a id="section-20"></a></p>
+<h2>Appendix C Status and Contents of the Edition</h2>
+<p>Concept: Albert Toma. This full public edition, dated November 1, 2026, develops the basic edition of November 1. The three extended examples, check tables, questions, and fillable outline support explanation and analysis; they are not reports of measured effectiveness.</p>
+<p>Completeness here means a coherent account of the Book concept, its application, evaluation, and development. The text does not claim to enumerate every possible situation. Implementing a particular product requires its own documentation and trials. No independent scientific review of this edition is claimed.</p>
+<p><a href="BOOK-CONCEPT.md">Brief introduction</a> · <a href="TEMPLATE.md">Fillable outline</a> · <a href="RIGHTS.md">Terms of use</a></p>
+</main><footer>© 2026 Albert Toma · 1 November 2026</footer></html>

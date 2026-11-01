@@ -2,20 +2,32 @@
 
 Альберт Тома · Albert Toma
 
-Редакция для публикации от 1 ноября 2026 года / Publication candidate dated 1 November 2026.
+Книга — способ сохранять и развивать замысел при передаче, принятии решений и воплощении. Полная редакция объясняет устройство подхода, показывает применение на трёх развёрнутых примерах и рассматривает проверку, пересмотр и накопление ошибок.
 
-Книга помогает сохранять и развивать замысел при переходе от обсуждения к решениям, реализации и проверке результата.
+The Book is an approach to preserving and developing intent through communication, decisions, and implementation. The full edition explains the approach, develops three worked examples, and examines evaluation, revision, and error accumulation.
 
-The Book helps preserve and develop intent as it moves from discussion to decisions, implementation, and verification of results.
+## Полная редакция / Full edition
 
-## Читать / Read
+- [Читать по-русски](ru/BOOK.md) · [Read in English](en/BOOK.md)
+- [Русская версия в браузере](ru/BOOK.html) · [English browser edition](en/BOOK.html)
+- [Русская PDF-книга](ru/BOOK.pdf) · [English PDF book](en/BOOK.pdf)
+- [Заполняемый образец](ru/TEMPLATE.md) · [Fillable outline](en/TEMPLATE.md)
 
-- [Русская статья](ru/BOOK-CONCEPT.md) · [English article](en/BOOK-CONCEPT.md)
-- [Учебный разбор](ru/EXAMPLE.md) · [Worked example](en/EXAMPLE.md)
-- [Краткий анонс](ru/ANNOUNCEMENT.md) · [Short announcement](en/ANNOUNCEMENT.md)
+Внутри: назначение и существенные отношения; идея и техническая реализация; развитие и дрейф; образовательная мастерская, изменение основания и совместная запись на занятие; противоречия и полнота; реконструкция и тесты; сравнение с другими рабочими материалами; история и раннее самоприменение; старение и перенос опыта; словарь и вопросы для разбора.
+
+The book covers purpose and essential relationships; idea and technical implementation; development and drift; an educational workshop, a changed premise, and joint class registration; contradictions and completeness; reconstruction and tests; comparison with other working materials; history and early self-application; aging and transfer of experience; a glossary and analysis questions.
+
+## Краткий вход / Brief introduction
+
+- [Базовая статья](ru/BOOK-CONCEPT.md) · [Basic article](en/BOOK-CONCEPT.md)
+- [Короткий учебный разбор](ru/EXAMPLE.md) · [Short worked example](en/EXAMPLE.md)
+- [Анонс](ru/ANNOUNCEMENT.md) · [Announcement](en/ANNOUNCEMENT.md)
 - [Условия использования](ru/RIGHTS.md) · [Terms of use](en/RIGHTS.md)
-- [Версия для браузера / Browser edition](index.html)
 
-Это базовое концептуальное изложение и условный пример. Издание не заявляет научного приоритета, универсальной эффективности или готовности программного продукта. Польза подхода требует проверки на конкретных задачах.
+Редакция от 1 ноября 2026 года.
 
-This edition presents the basic concept and a hypothetical example. It makes no claim of scientific priority, universal effectiveness, or readiness of a software product. The approach must be evaluated on specific tasks.
+Edition dated November 1, 2026.
+
+Концептуальное изложение и учебные примеры не являются доказательством универсальной эффективности. Открытая лицензия этим изданием не предоставляется.
+
+A conceptual account and instructional examples do not establish universal effectiveness. This edition grants no open license.
