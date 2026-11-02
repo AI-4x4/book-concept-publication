@@ -282,6 +282,16 @@ The Book can draw on these tools. The choice of storage tool does not by itself 
 <a id="section-11"></a>
 ## 10 How to Begin Without Unnecessary Procedure
 
+### The User's Book and the Assembly of the First Book
+
+According to the author, the user's (operator's) own knowledge base was intended from the outset to support reconstructing and preserving their intent. It may include correspondence available for the task, personal and project documents, earlier decisions, examples of accepted and rejected results, and accumulated experience. The very first Book may be **the User's Book**: a coherent representation of their intentions, significant concepts, grounds for decisions, and experience, reconstructed from these materials and clarified with them. The knowledge base supplies source material for this assembly; the Book identifies and preserves significant relationships of meaning.
+
+This arrangement makes it possible to compare a brief task statement with its origins and specific cases. For example, the meaning of "convenient" can be clarified by examining which difficulties the user wanted to remove and which results they considered suitable or unsuitable. Assembly distinguishes the user's statements, the system's proposals, and adopted decisions; it preserves references to original materials, circumstances, and changes of position. Contradictions and gaps are presented for examination, and a system assumption does not become a user decision. Where significant materials are unavailable, the corresponding understanding remains unverified and requires clarification.
+
+The User's Book may support subsequent project Books. A specific project draws on information that is relevant to it and permitted for its participants, retaining the circumstances and limits of the original decisions. This arrangement helps interpret an individual request within the user's broader context while taking their current explicit decisions into account.
+
+The knowledge base makes it possible to recheck an interpretation against original evidence and seek information that contradicts it. Its size alone does not guarantee correct understanding. An earlier decision may no longer apply, a summary may lose a condition, and several records may repeat the same error. Selected materials are therefore checked for relevance, currency, and permitted use. The expected benefit is less loss of meaning and less repeated explanation; the actual effect must be established through the results of the work.
+
 Choose one current task in which expectations and results already diverge or are at risk of diverging. Use available documents and verified information rather than gathering the entire project anew.
 
 A short record is sufficient for the first pass:
