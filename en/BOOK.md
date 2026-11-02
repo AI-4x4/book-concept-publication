@@ -64,6 +64,14 @@ For example, “the participant independently works through a new problem” may
 
 Whether a property is essential is determined by the particular intent. No universal list of mandatory properties for every project is assumed here.
 
+### Surrounding Context
+
+Understanding intent requires the surrounding context: the author's relevant goals and meanings, information about users and the organization, working conditions, constraints, and significant external relationships. This information may be distributed across different materials. The Book connects the necessary parts of the context while distinguishing direct statements, observations, interpretations, and adopted decisions.
+
+A user profile is one representation of this context. If the task concerns a company, a Company Book is also needed: its purpose, goals, adopted decisions, roles and authority, commitments, and operating conditions. It may be maintained separately or together with the User's Book; a combined account must keep personal and corporate positions distinguishable. A participant's personal preference does not by itself become a company decision.
+
+The Book includes context relevant to understanding and checking the task at hand. Possessing information does not grant permission to use or disclose it to every audience; its source, scope of applicability, and permitted recipients must be preserved.
+
 ### Concepts and Boundaries
 
 Ambiguous words should be explained wherever their meaning affects a decision. “Independence” may mean the absence of hints, the ability to explain the reasoning behind a solution, or the opportunity to choose a course of action. These alternatives require different checks.
@@ -142,6 +150,12 @@ Imagine a workshop that helps adults independently work through everyday financi
 The author states the goal: after the classes, a participant should be able to analyze a new problem, identify the significant conditions, and explain the chosen approach to solving it. Obtaining the correct answer to a familiar exercise is useful, but insufficient for this goal.
 
 Independent analysis of a new situation and the ability to check the reasoning are selected as essential properties. A constraint is the absence of access to participants’ personal financial data. These propositions establish a framework within which the class format can be chosen.
+
+### Context of the Author and Organization
+
+In this hypothetical example, the author explains: "Good learning means that a person can apply knowledge independently." The speed of receiving an answer is therefore not sufficient evidence of quality. This interpretation rests on the author's direct explanation; if reconstructed only from earlier materials, it remains an assumption pending clarification.
+
+If a company runs the workshop, its Book separately records the adopted learning goal and who may change it. An employee's personal wish to help participants faster may be considered as a proposal, but it does not replace the company's goal. The User's Book and Company Book may be combined in one document provided each proposition is clearly attributed.
 
 ### From Intent to Decisions
 
@@ -318,9 +332,11 @@ This brief authorial retrospective describes the development of the formulations
 
 **Background.** Albert Toma recalls spending about two months trying to understand a complex, disordered project before the Book emerged. The exact beginning remains unknown. He dates the strand of monitoring that develops with a project to December 2025; the exact day is not established.
 
+**Earlier personal context.** A preserved instruction dated April 7, 2026 calls for separate participant profiles to be assembled from available materials. This documents work with personal context before the Book appeared. It does not establish that the Book concept existed in April or that each later decision followed directly from this work.
+
 **Original arrangement.** The Book entered practice as a replacement for the technical specification in its role as the project's main reference. According to the author, the idea and technical implementation were distinguished from the outset wherever possible. Their connection remains essential: implementation results may justify revisiting the idea.
 
-**August 2026.** The selected development strand begins on August 12 with the task of assembling a conceptual whole. By mid-August, protection against drift and simplification without loss of essential meaning are explicit. The requirement to check changes to the Book using its own rules also appears at this stage. Self-application therefore cannot be dated only to September. A requirement to check does not itself establish successful execution of that check.
+**August 2026.** The earliest creation record found for a project Book is dated August 12: the initial text of five chapters and a contents page, together with the successful file-creation result, has been preserved. This dates the record found, not the first occurrence of the idea. On August 13, the author's understanding of learning is explicitly included in the foundation. On August 14, the editorial rules already account for the author's characteristics and contain explicit participant writing profiles; their list is removed from the rules later in the same discussion. A recorded profile does not establish that every characteristic is correct or that the profile was subsequently used. By mid-August, protection against drift and simplification without loss of essential meaning are explicit. The requirement to check changes to the Book using its own rules also appears at this stage. Self-application therefore cannot be dated only to September; a requirement to check does not establish successful execution.
 
 **September.** On September 11, self-application and recursion are discussed explicitly: the developing approach itself becomes the subject of its description. This is a milestone of recognition rather than an established beginning of self-application. On September 17, the author explains the purpose as counteracting drift of the Idea and names checks for contradictions and completeness as a minimum requirement. The formulation clarifies the original purpose rather than retrospectively creating it.
 
@@ -335,6 +351,8 @@ The Book developed from a practical need to preserve the whole as details accumu
 
 <a id="section-13"></a>
 ## 12 Limitations and Open Questions
+
+A profile of an author, user, or company may be incomplete, mistaken, or out of date. An inferred preference does not replace an explicit decision, and writing style does not establish identity or authority. A conflict between an older profile and a current instruction requires checking scope, source, and current authority; a guess cannot fill an unknown.
 
 The Book can consistently preserve a mistaken intent. Fidelity to the author's goal therefore does not remove the need to check factual grounds and consequences.
 
@@ -382,6 +400,7 @@ Consider the workshop in section 5. A small Book could be written as follows.
 
 | Question | Example of a substantive answer |
 | --- | --- |
+| Which context matters? | In this hypothetical example, the author and company define good learning as independent application of knowledge. A personal request for speed does not change this goal without an authorized decision. |
 | What is intended, and for whom? | A participant learns to analyze unfamiliar everyday financial problems independently. |
 | What must be preserved? | Explanation of the grounds for a solution and transfer to a new comparable problem; real personal financial information is not required. |
 | What supports the choice of method? | Gradual hints are proposed as a hypothesis; their benefit has not yet been measured. |
@@ -401,6 +420,7 @@ This is a completed instructional example, not a universal requirements template
 | Idea and intent | The envisioned whole and the meaning of the required change; not merely a list of functions |
 | Drift of the Idea | An unnoticed shift in essential meaning during communication, development, or implementation |
 | Book | A coherent, evolving representation of intent, its grounds, decisions, and significant relationships |
+| Surrounding context | Task-relevant information about the author, users, organization, conditions, constraints, and relationships, with its source and scope preserved |
 | Essential property | A property whose loss changes the meaning of the given intent |
 | Grounds | Information or propositions on which a particular conclusion or decision rests |
 | Assumption | A proposition accepted for consideration whose truth has not yet been established to the required extent |
@@ -438,3 +458,6 @@ Concept: Albert Toma. This full public edition, dated November 1, 2026, develops
 Completeness here means a coherent account of the Book concept, its application, evaluation, and development. The text does not claim to enumerate every possible situation. Implementing a particular product requires its own documentation and trials. No independent scientific review of this edition is claimed.
 
 [Brief introduction](BOOK-CONCEPT.md) · [Fillable outline](TEMPLATE.md) · [Terms of use](RIGHTS.md)
+
+
+Supplement dated November 2, 2026. The original edition is dated November 1, 2026.

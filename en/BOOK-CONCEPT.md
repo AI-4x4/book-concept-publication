@@ -35,6 +35,16 @@ The coherence of this information matters. For any significant decision, it shou
 
 The form depends on the task. The Book may be a short text or a system of interconnected materials. Specialized documents, source data, code, and evidence of execution retain their own roles. The extent of the description should help people understand the whole and make decisions.
 
+## Surrounding Context
+
+Understanding intent requires the surrounding context: the author's relevant goals and meanings, information about users and the organization, working conditions, constraints, and significant external relationships. This information may be distributed across different materials. The Book connects the necessary parts of the context while distinguishing direct statements, observations, interpretations, and adopted decisions.
+
+A user profile is one representation of this context. If the task concerns a company, a Company Book is also needed: its purpose, goals, adopted decisions, roles and authority, commitments, and operating conditions. It may be maintained separately or together with the User's Book; a combined account must keep personal and corporate positions distinguishable. A participant's personal preference does not by itself become a company decision.
+
+The Book includes context relevant to understanding and checking the task at hand. Possessing information does not grant permission to use or disclose it to every audience; its source, scope of applicability, and permitted recipients must be preserved.
+
+A profile of an author, user, or company may be incomplete, mistaken, or out of date. An inferred preference does not replace an explicit decision, and writing style does not establish identity or authority. A conflict between an older profile and a current instruction requires checking scope, source, and current authority; a guess cannot fill an unknown.
+
 ## Developing Intent
 
 An Idea can be enriched, refined, and changed. New data may reveal that a premise is mistaken, while testing may uncover a significant limitation of the original solution.
@@ -102,3 +112,8 @@ For an initial application, one can choose a project where expectations and resu
 A practical question for this work is: **can the result produced and the grounds preserved be used to reconstruct what was intended, why these decisions were chosen, and what remains unverified?**
 
 The benefits of the approach should be assessed through specific cases: whether the essential meaning is preserved, whether significant discrepancies are detected, how many clarifications and corrections are required, and what the full cost of the work is. Having a Book does not guarantee a successful project. Its value remains to be demonstrated by how well it helps preserve and develop intent on sound grounds in real-world activity.
+
+
+---
+
+Supplement dated November 2, 2026. The original edition is dated November 1, 2026.

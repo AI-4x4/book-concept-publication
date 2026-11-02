@@ -8,6 +8,12 @@ This is a hypothetical example, not a product trial report.
 
 Help a learner solve unfamiliar problems of a defined kind independently. Here, independence means being able to explain the reasoning and solve a new comparable problem without being given the answer.
 
+## Context of the Author and Organization
+
+In this hypothetical example, the author explains: "Good learning means that a person can apply knowledge independently." The speed of receiving an answer is therefore not sufficient evidence of quality. This interpretation rests on the author's direct explanation; if reconstructed only from earlier materials, it remains an assumption pending clarification.
+
+If a company runs the workshop, its Book separately records the adopted learning goal and who may change it. An employee's personal wish to help participants faster may be considered as a proposal, but it does not replace the company's goal. The User's Book and Company Book may be combined in one document provided each proposition is clearly attributed.
+
 ## A decision and possible drift
 
 The team adds a button that reveals the answer and measures the time taken to obtain it. That time decreases. The feature succeeds by this measure, but its effect on independence remains unknown. Substitution occurs if speed alone is treated as sufficient evidence that the original goal has been achieved.

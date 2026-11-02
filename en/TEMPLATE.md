@@ -8,6 +8,12 @@ Fill only what the current task needs. An unanswered question remains open; a sa
 
 What should be achieved, for whom, and why? Which essential properties define success? What lies outside this task?
 
+## Surrounding Context
+
+Who states the intent, and who receives the result? Which meanings, goals, preferences, and conditions matter to this task? What was stated directly and what was inferred from materials; where is the source, and what remains unverified?
+
+If the task concerns a company, where is its Book: separate or combined with the User's Book? What are the company's goals, commitments, and current authority? Which propositions are personal, which are corporate, and who is permitted to see this information?
+
 ## Concepts and Grounds
 
 What do the key terms mean? What information has been checked, and under what conditions? What is an assumption? What remains unknown?

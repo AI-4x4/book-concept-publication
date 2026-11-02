@@ -31,3 +31,6 @@ Edition dated November 1, 2026.
 Концептуальное изложение и учебные примеры не являются доказательством универсальной эффективности. Открытая лицензия этим изданием не предоставляется.
 
 A conceptual account and instructional examples do not establish universal effectiveness. This edition grants no open license.
+
+
+[Дополнение от 2 ноября 2026 года / Supplement dated November 2, 2026](CHANGES-2026-11-02.md): контекст окружения, Книга компании, границы профилей и уточнённая история / surrounding context, the Company Book, profile limitations, and clarified history.
