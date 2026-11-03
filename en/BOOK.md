@@ -112,9 +112,33 @@ The Book can be viewed as a graph: propositions and materials are connected by r
 
 If two propositions use the same source, they do not become two independent confirmations. If material is connected to many other materials, that does not yet mean that all the connections are useful or correct.
 
+### The Book as the System's Root Source of Truth
+
+The Book is the system's root source of truth (SoT): it records intent, concepts, essential properties, principles, constraints, grounds, and adopted decisions. Other normative and project documents, including the technical specification, are derived from it. They develop the relevant part of its content for a particular task and audience. A specification details requirements; architecture describes the structure and the rationale for decisions; plans define actions; tests check selected properties. These representations may inform one another and need not form a single linear chain.
+
+Root status does not require a single file. The Book may consist of connected materials with distinguishable scopes, statuses, and versions. A project's Book retains that project's own intent and decisions; an overall Book provides applicable shared grounds. Conflicts are resolved by scope and authority, rather than by file modification time. An overall Book does not give every participant access to all its parts.
+
+### Connecting Derived Materials to Their Grounds
+
+For a significant derived proposition, its grounds and their version, scope, assumptions, adoption status, and means of checking should be distinguishable. The format should be proportionate to the task. Adding detail in a specification or architecture does not authorize silently changing the original intent. A significant new premise becomes a proposal to revise the Book. A direct decision by an authorized person does not lose force because its documentation is delayed; the discrepancy must be made explicit and dependent materials brought into agreement.
+
+Original evidence, external rules, author instructions, and observations retain their own provenance. Their truth and authenticity do not follow from being recorded in the Book. Code and execution results show the actual state and may contradict its documented description. Root status establishes the reference for intent and decisions while preserving this distinction from facts.
+
+### Revising and Checking the Grounds Themselves
+
+When a discrepancy appears, determine whether the defect lies in the Book, in deriving a requirement, in implementation, in the check, or in changed external conditions. Examine the grounds and consequences. A change to the grounds is adopted by an authorized person or within explicitly delegated authority. Automatic error detection does not itself grant that authority. Once adopted, identify the affected documents and states, update them, and check compatibility. Mark inconsistent versions explicitly and restrict only actions that depend on them. Preserve the previous version and the grounds for revision. Reverting a document does not undo the external consequences of execution.
+
+Root status does not make the Book infallible. Materials derived from one mistaken premise may agree with one another. Checks must address original evidence and intent, contradictions, completeness relative to the task, and the result of the whole. If the original meaning cannot be recovered unambiguously, record the uncertainty and seek clarification from the authorized person responsible for the intent. Self-checking against existing criteria may miss an error in the criteria themselves.
+
+### An Instructional Example of a Mistaken Derived Requirement
+
+The Book requires operation history to be retained for resolving disputes. To save storage, a derived specification requires all history to be deleted after one day. The implementation and its exact-deletion test may work correctly while the requirement already violates the intent. If the Book does not define a retention period, this is an open question for a decision, not permission to invent a period. If retention conflicts with a binding external rule, the premise itself and the affected derived materials require revision. Reverting the text alone does not recover deleted data.
+
+This is an instructional example. The criterion for applying the approach is the ability to reconstruct the path from intent through adopted decisions and derived materials to the observed result, distinguish a mistaken premise from mistaken implementation, and identify the consequences of correction. Links, a shared version, or passing tests do not alone guarantee this ability.
+
 ### The Idea and Technical Implementation
 
-The Book entered practice as a replacement for the technical specification in the role of the project’s main reference. From the outset, it distinguished the idea from technical implementation so as to avoid mixing them wherever possible. According to the author’s clarification, this was the original framework, not a later consequence of representing the Book as a graph.
+The Book is the system's root SoT; the specification and other project documents are derived from it. From the outset, it distinguished the idea from technical implementation so as to avoid mixing them wherever possible. According to the author’s clarification, this was the original framework, not a later consequence of representing the Book as a graph.
 
 The idea answers the questions “what should result, for whom, and why.” The technical part describes the chosen means of implementation, its constraints, and the actual state of implementation. The connections between them are preserved: a decision must be justified by the intent, while observed constraints may require an explicit revision of the idea. A change in the implementation method does not in itself change the intent. “Wherever possible” preserves the necessary interaction between the parts and does not prescribe a rigid format or a complete separation of all information.
 
@@ -461,3 +485,6 @@ Completeness here means a coherent account of the Book concept, its application,
 
 
 Supplement dated November 2, 2026. The original edition is dated November 1, 2026.
+
+
+Correction dated November 3, 2026: the Book as the system's root SoT; derived documents and checking their grounds.

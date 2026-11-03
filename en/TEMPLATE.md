@@ -18,6 +18,12 @@ If the task concerns a company, where is its Book: separate or combined with the
 
 What do the key terms mean? What information has been checked, and under what conditions? What is an assumption? What remains unknown?
 
+## Root Grounds and Derived Materials
+
+Which Book is the root reference for this system and scope? Which version applies? Which specifications, architectural descriptions, plans, and checks are derived from it? Where are their grounds, assumptions, and adoption statuses? Which original evidence is retained separately?
+
+Who may change the intent and grounds? How can a discrepancy between a derived document and the Book, or an error in the Book itself, be detected? What would an adopted change affect, how would compatibility be checked, and which consequences cannot be undone by reverting documents?
+
 ## Decisions and Relationships
 
 What has been adopted, and who may change it? Why was this method selected? Which grounds support the decision, and which requirements does it realize? What alternatives were considered?

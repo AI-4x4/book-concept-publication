@@ -34,3 +34,8 @@ A conceptual account and instructional examples do not establish universal effec
 
 
 [Дополнение от 2 ноября 2026 года / Supplement dated November 2, 2026](CHANGES-2026-11-02.md): контекст окружения, Книга компании, границы профилей и уточнённая история / surrounding context, the Company Book, profile limitations, and clarified history.
+
+
+Книга является корневым SoT системы; ТЗ и остальные проектные документы являются её производными. / The Book is the system's root SoT; specifications and other project documents are derived from it.
+
+[Уточнение от 3 ноября 2026 года / Correction dated November 3, 2026](CHANGES-2026-11-03.md).

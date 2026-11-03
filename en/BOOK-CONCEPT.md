@@ -20,6 +20,12 @@ Drift can arise in the definition of a word, the choice of a metric, a convenien
 
 As intent moves from discussion to plans, tasks, code, and checks, it takes different forms. A meaningful connection must be maintained between these representations.
 
+## The Book as the Root SoT
+
+The Book is the system's root source of truth (SoT). Specifications, architecture, plans, and other project documents are derived from it: they develop intent and adopted decisions for their own tasks while retaining a connection to the grounds, their versions, and their scope. Adding detail does not authorize silently changing the intent. The Book may consist of several connected materials; individual projects and audiences retain their boundaries.
+
+Root status does not mean infallibility. Original evidence retains its own provenance, and an observed result may contradict the documented description. A discrepancy calls for checking both the derived material and its grounds. A revision to the Book adopted by an authorized decision requires checking the affected derived materials and consequences. Agreement among documents derived from one error is not independent confirmation.
+
 ## What the Book Holds Together
 
 The Book connects several questions:
@@ -77,7 +83,7 @@ An unknown, a hypothesis, and an adopted decision have different meanings. Disti
 
 ## From Concept to Implementation
 
-The Book entered practice as a replacement for the technical specification in its role as the project’s primary foundation. As the author clarifies, it distinguished between the idea and its technical implementation from the outset, to avoid conflating them as far as possible. The idea describes what should be achieved and why; the technical part describes how it is to be realized and what has actually been implemented.
+The Book is the system's root SoT; the specification and other project documents are derived from it. As the author clarifies, it distinguished between the idea and its technical implementation from the outset, to avoid conflating them as far as possible. The idea describes what should be achieved and why; the technical part describes how it is to be realized and what has actually been implemented.
 
 These parts are connected: a technical solution must serve the intent, while implementation constraints and results may provide grounds for explicitly revising it. At the same time, replacing a technical method does not in itself mean changing the idea. This distinction does not require complete isolation of the parts or a predetermined number of documents.
 
@@ -117,3 +123,6 @@ The benefits of the approach should be assessed through specific cases: whether 
 ---
 
 Supplement dated November 2, 2026. The original edition is dated November 1, 2026.
+
+
+Correction dated November 3, 2026: the Book as the system's root SoT; derived documents and checking their grounds.

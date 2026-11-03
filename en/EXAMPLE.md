@@ -18,6 +18,10 @@ If a company runs the workshop, its Book separately records the adopted learning
 
 The team adds a button that reveals the answer and measures the time taken to obtain it. That time decreases. The feature succeeds by this measure, but its effect on independence remains unknown. Substitution occurs if speed alone is treated as sufficient evidence that the original goal has been achieved.
 
+## Deriving the Specification from the Book
+
+The Book sets the goal of solving new tasks independently. A derived specification may require a learner's own attempt before a graduated hint; architecture and tests develop how that requirement is implemented and checked. If the specification instead requires only an instant complete answer, a passing speed test does not establish achievement of the goal. The origin of the requirement must be checked as well as its execution. If the goal itself proves inappropriate for the intended audience, its revision must be explicitly adopted and reflected in the affected derived materials. This is an instructional illustration, not a trial result.
+
 ## Questions to clarify
 
 - Who is the product for, and which problems should it address?
