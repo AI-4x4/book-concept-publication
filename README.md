@@ -39,3 +39,14 @@ A conceptual account and instructional examples do not establish universal effec
 Книга является корневым SoT системы; ТЗ и остальные проектные документы являются её производными. / The Book is the system's root SoT; specifications and other project documents are derived from it.
 
 [Уточнение от 3 ноября 2026 года / Correction dated November 3, 2026](CHANGES-2026-11-03.md).
+
+
+## Развитие концепции / Concept Development · 4 November 2026
+
+- [Дополнение по-русски](ru/SUPPLEMENT-2026-11-04.md) · [Read the supplement in English](en/SUPPLEMENT-2026-11-04.md)
+- [Читать в браузере](ru/SUPPLEMENT-2026-11-04.html) · [Browser edition](en/SUPPLEMENT-2026-11-04.html)
+- [PDF на русском](ru/SUPPLEMENT-2026-11-04.pdf) · [English PDF](en/SUPPLEMENT-2026-11-04.pdf)
+
+Hello World как развитие концепции Книги; оптимизация системы; человек-критик; обратная связь через общение; выпадение критериев; структуры и сохранение целого. Шесть учебных примеров и ограниченное самоприменение. Это отдельное дополнение; дата исходной редакции остаётся 1 ноября 2026 года.
+
+Hello World as a development of the Book concept; system optimization; the human critic; feedback through communication; omission of criteria; structures and preservation of the whole. Six instructional examples and bounded self-application. This is a separate supplement; the original edition remains dated November 1, 2026.
