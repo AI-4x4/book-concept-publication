@@ -2,7 +2,7 @@
 
 Supplement dated November 2, 2026, to the edition dated November 1, 2026. Updated November 6, 2026.
 
-The author thanks Alexander Soldatov for professional dialogue and critical comments on system architecture, execution control, and verification of results.
+The author thanks [Alexander Soldatov](https://github.com/SoldatovAlexander) for professional dialogue and critical comments on system architecture, execution control, and verification of results.
 
 Special thanks to Alexander Vasilyev — the Colombian:
 
