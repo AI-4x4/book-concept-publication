@@ -50,3 +50,8 @@ A conceptual account and instructional examples do not establish universal effec
 Hello World как развитие концепции Книги; оптимизация системы; человек-критик; обратная связь через общение; выпадение критериев; структуры и сохранение целого. Шесть учебных примеров и ограниченное самоприменение. Это отдельное дополнение; дата исходной редакции остаётся 1 ноября 2026 года.
 
 Hello World as a development of the Book concept; system optimization; the human critic; feedback through communication; omission of criteria; structures and preservation of the whole. Six instructional examples and bounded self-application. This is a separate supplement; the original edition remains dated November 1, 2026.
+
+
+## Благодарности / Acknowledgements · 6 November 2026
+
+- [Благодарности по-русски](ru/ACKNOWLEDGEMENTS.md) · [Acknowledgements in English](en/ACKNOWLEDGEMENTS.md)
